@@ -5,7 +5,7 @@ const path = require('path');
 const fetch = require('node-fetch');
 
 const app = express();
-const PORT = 3000;
+const PORT = 8080;
 
 app.use(express.static('public')); // Serve index.html and frontend assets
 
