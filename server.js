@@ -2,7 +2,7 @@
 const express = require('express');
 
 const app = express();
-const PORT = 8080;
+const PORT = 6700;
 
 app.use(express.static('public')); // Serve index.html and frontend assets
 
