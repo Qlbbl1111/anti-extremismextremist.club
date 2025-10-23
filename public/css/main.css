@@ -29,6 +29,7 @@
     img.point {
         width: 50px;
     }
+    
     div.cursor {
         padding: 0px 20px 0px 0px;
         width: 50px;
@@ -48,9 +49,9 @@
     }
 
     p.intro {
-        text-align: center;
+        text-align: justify;
         color: greenyellow;
-        font-size: x-large;
+        font-size: large;
         margin: 30px;
     }
 
@@ -63,7 +64,8 @@
     a {
         color: rgb(244, 92, 143);
         font-weight: bold;
-        font-size: x-large;
+        font-size: large;
+        text-decoration: underline;
     }
 
     a:hover {
