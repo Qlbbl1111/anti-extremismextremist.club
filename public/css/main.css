@@ -38,6 +38,15 @@
         padding: 0px 50px 0px 50px;
     }
 
+    div.index {
+        float: left;
+    }
+
+    div.garf {
+        float: right;
+        padding: 0px 30px 0px 0px;
+    }
+
     p.intro {
         text-align: center;
         color: greenyellow;
