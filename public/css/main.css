@@ -1,73 +1,110 @@
-	body {
-        background-color: #056a8b;
-        background-image: url(".http://localhost:6700/data/bg.jpeg");
-	}
+body {
+    background-color: #056a8b;
+    background-image: url(".http://localhost:6700/data/bg.jpeg");
+}
 
-    h1 {
-        color: white;
-        text-align: center;
-    }
+h1 {
+    color: white;
+    text-align: center;
+}
 
-    h1.keybookmarks {
-        color: rgb(248, 9, 248);
-        text-align: center;
-        font-size: 225%;
-        font-weight: bold;
-    }
+h1.keybookmarks {
+    color: rgb(248, 9, 248);
+    text-align: center;
+    font-size: 225%;
+    font-weight: bold;
+}
 
-    img.title {
-        display: block;
-        margin: auto;
-    }
+img.title {
+    display: block;
+    margin: auto;
+    padding-top: 30px;
+}
 
-   img.title2 {
-        display: block;
-        margin: auto;
-        padding-top: 30px;
-    }
+img.point {
+    width: 50px;
+}
 
-    img.point {
-        width: 50px;
-    }
+div.cursor {
+    padding: 0px 20px 0px 0px;
+    width: 50px;
+}
+
+div.intro {
+    padding: 0px 50px 0px 50px;
+}
+
+div.index {
+    float: left;
+}
+
+div.garf {
+    float: left;
+    padding: 0px 00px 0px 30px;
+}
+
+div.linksbutton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 0px 20px 0px;
+}
+
+p.intro {
+    text-align: center;
+    color: greenyellow;
+    font-size: large;
+    margin: 30px;
+}
+
+table.links {
+    color: white;
+    text-wrap-mode: wrap;
     
-    div.cursor {
-        padding: 0px 20px 0px 0px;
-        width: 50px;
-    }
+}
 
-    div.intro {
-        padding: 0px 50px 0px 50px;
-    }
+a {
+    color: rgb(244, 92, 143);
+    font-weight: bold;
+    font-size: large;
+    text-decoration: underline;
+}
 
-    div.index {
-        float: left;
-    }
+a:hover {
+    text-decoration: underline;
+}
 
-    div.garf {
-        float: right;
-        padding: 0px 30px 0px 0px;
-    }
+button {
+    display: inline-block;
+    font-size: 24px;
+    outline: none;
+    border: 0px;
+    padding: 8px 36px;
+    border-radius: 30px;
+    background: linear-gradient(180deg, #37E7FF 0%, #0047FF 50%, #46DEFF 100%);
+    color: #fff;
+    position: relative;
+    text-shadow: 0px -1px 0px rgba(0, 0, 0, .8), 0px 1px 0px rgba(255, 255, 255, .4);
+}
 
-    p.intro {
-        text-align: justify;
-        color: greenyellow;
-        font-size: large;
-        margin: 30px;
-    }
+button::after {
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    height: calc(50% - 2px);
+    width: calc(100% - 4px);
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, .8), rgba(255, 255, 255, .35));
+}
 
-    table.links {
-        color: white;
-        text-wrap-mode: wrap;
-        
-    }
-    
-    a {
-        color: rgb(244, 92, 143);
-        font-weight: bold;
-        font-size: large;
-        text-decoration: underline;
-    }
+button:hover {
+    filter: brightness(0.9);
+    transition-duration: 0.1s
+}
 
-    a:hover {
-        text-decoration: underline;
-    }
+button.green {
+    background: linear-gradient(180deg, #ADFF2E 0%, #005823 50%, #ADFF2E 100%);
+    border-radius: 30px;
+}
