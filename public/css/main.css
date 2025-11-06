@@ -18,11 +18,22 @@ h1.subtitles {
 img.title {
     display: block;
     margin: auto;
-    padding-top: 30px;
+    padding-top: 15px;
+}
+
+img.homebutton {
+    width:30px;
+    padding-right: 5px;
 }
 
 img.point {
     width: 50px;
+}
+
+div.header {
+    display: flex;
+    justify-content: left;
+    align-items: left;
 }
 
 div.cursor {
@@ -57,6 +68,18 @@ div.video {
     padding: 0px 0px 20px 0px;
 }
 
+div.footer {
+    justify-content: center;
+    align-items: center;
+    padding: 0px 0px;
+}
+
+p.footer {
+    text-align: center;
+    color: greenyellow;
+    margin: 30px;
+}
+
 p.intro {
     text-align: center;
     color: greenyellow;
@@ -75,6 +98,21 @@ a {
     font-weight: bold;
     font-size: large;
     text-decoration: underline;
+}
+
+a.homebutton {
+    color: rgb(244, 92, 143);
+    font-weight: bold;
+    font-size: large;
+    text-decoration: underline;
+    padding-left: 5px;
+}
+
+a.footer {
+    color: greenyellow;
+    font-weight: small;
+    font-size: medium;
+    text-decoration: none;
 }
 
 a:hover {
