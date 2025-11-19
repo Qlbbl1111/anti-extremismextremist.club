@@ -9,19 +9,16 @@ h1 {
 }
 
 h1.subtitles {
-    color: rgb(248, 9, 248);
+    color: rgb(9, 160, 248);
     text-align: center;
     font-size: 225%;
     font-weight: bold;
 }
 
-img.title1 {
+img.title {
+    display: block;
+    margin: auto;
     padding-top: 15px;
-}
-
-img.title2 {
-    padding-top: 15px;
-    padding-left: 15px;
 }
 
 img.homebutton {
@@ -31,12 +28,6 @@ img.homebutton {
 
 img.point {
     width: 50px;
-}
-
-div.title {
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 div.header {
@@ -82,22 +73,11 @@ div.footer {
     align-items: center;
     padding: 0px 0px;
 }
-div.center {
-    justify-content: center;
-    align-items: center;
-    padding: 10px 0px 5px 0px;
-}
 
 p.footer {
     text-align: center;
     color: greenyellow;
-    margin: 20px;
-}
-
-strong.subtitle {
-    text-align: center;
-    color: greenyellow;
-    font-size: large;
+    margin: 30px;
 }
 
 p.intro {
@@ -174,42 +154,6 @@ button.green {
     border-radius: 30px;
 }
 
-html, body {
-    height: 100%;
-    margin: 0;
-    padding: 0;
-}
-
-@media screen and (max-width: 1200px) {
-    div.title {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
+@media screen and (max-width: 736px) {
+    
     }
-    img.title1 {
-        height: 64px;
-        margin-left: 0px;
-        margin-right: 0px;
-            padding: 0;
-    display: block;
-    margin: 0 auto;
-    max-height: 100%;
-    max-width: 95%;
-    }
-    img.title2 {
-        height: 64px;
-        margin-left: 0px;
-        margin-right: 0px;
-            padding: 0;
-    display: block;
-    margin: 0 auto;
-    max-height: 100%;
-    max-width: 95%;
-    }
-    p.intro {
-    text-align: center;
-    color: greenyellow;
-    font-size: large;
-    margin: 20px;
-    }  
-}
