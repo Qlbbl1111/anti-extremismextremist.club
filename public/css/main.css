@@ -108,10 +108,12 @@ div.footer {
     padding: 0px 0px;
 }
 div.center {
+    display: flex;
     justify-content: center;
     align-items: center;
     padding: 10px 0px 5px 0px;
 }
+
 iframe {
     padding: 0px 5px 0px 5px;
     border: none;
@@ -248,8 +250,13 @@ html, body {
         width: 50%;
     }
     div.video {
-        display: flex;
+        display: block;
         place-items: center;
         padding: 0px 0px 20px 0px;
+    }
+    iframe {
+        padding: 0px 5px 0px 5px;
+        border: none;
+        width: 100%;
     }
 }
