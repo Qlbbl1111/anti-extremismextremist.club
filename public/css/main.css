@@ -101,7 +101,7 @@ div.video {
     padding: 0px 0px 20px 0px;
 }
 
-div.fullideo {
+div.fullvideo {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -295,17 +295,17 @@ div.creditfooter {
     img.logo {
         width: 50%;
     }
+    
     div.video {
         display: block;
         place-items: center;
         padding: 0px 0px 20px 0px;
     }
 
-    div.fullideo {
+    div.fullvideo {
         display: block;
         place-items: center;
         padding: 0px 0px 20px 0px;
-        width: 90%;
     }
 
     iframe {
