@@ -213,6 +213,32 @@ html, body {
     padding: 0;
 }
 
+img.pamphlet {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+}
+
+div.pamphletpage {
+}
+
+img.pamphletpage {
+    width: 0%;
+}
+
+div.slides {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+img.slides {
+    padding: 0px 0px 20px 0px;
+    width: 90%;
+}
+
 @media screen and (max-width: 1200px) {
     div.title {
         display: block;
@@ -258,5 +284,23 @@ html, body {
         padding: 0px 5px 0px 5px;
         border: none;
         width: 100%;
+    }
+
+    div.pamphletpage {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        background: none;
+    }
+
+    img.pamphlet {
+        width: 0%;
+    }
+
+    img.pamphletpage {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 95%;
     }
 }
