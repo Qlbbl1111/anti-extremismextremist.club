@@ -1,6 +1,5 @@
 body {
     background-color: #056a8b;
-    background-image: url(".http://localhost:6700/data/bg.jpeg");
 }
 
 h1 {
@@ -126,6 +125,12 @@ p.footer {
     padding-bottom: 2px;
 }
 
+p.creditsfooter {
+    text-align: center;
+    color: greenyellow;
+    padding-bottom: 2px;
+}
+
 strong.subtitle {
     text-align: center;
     color: greenyellow;
@@ -237,6 +242,12 @@ div.slides {
 img.slides {
     padding: 0px 0px 20px 0px;
     width: 90%;
+}
+
+div.creditfooter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 @media screen and (max-width: 1200px) {
