@@ -159,12 +159,15 @@ table.links {
 }
 
 a {
-    color: rgb(244, 92, 143);
-    font-weight: bold;
-    font-size: large;
+    color: greenyellow;
     text-decoration: underline;
 }
 
+a.credits {
+    text-decoration: none;
+
+}
+    
 a.homebutton {
     color: rgb(244, 92, 143);
     font-weight: bold;
@@ -232,9 +235,6 @@ img.pamphlet {
     width: 95%;
 }
 
-div.pamphletpage {
-}
-
 img.pamphletpage {
     width: 0%;
 }
@@ -258,13 +258,13 @@ div.creditfooter {
 }
 
 
-
 @media screen and (max-width: 1200px) {
     div.title {
         display: block;
         margin-left: auto;
         margin-right: auto;
     }
+
     img.title1 {
         height: 64px;
         margin-left: 0px;
@@ -275,6 +275,7 @@ div.creditfooter {
         max-height: 100%;
         max-width: 95%;
     }
+
     img.title2 {
         height: 64px;
         margin-left: 0px;
@@ -285,6 +286,7 @@ div.creditfooter {
         max-height: 100%;
         max-width: 90%;
     }
+
     p.intro {
         text-align: center;
         color: greenyellow;
@@ -292,6 +294,7 @@ div.creditfooter {
         margin: 20px;
         padding: 0px 0px 0px 0px;
     }  
+
     img.logo {
         width: 50%;
     }
